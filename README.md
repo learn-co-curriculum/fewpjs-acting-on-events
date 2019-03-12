@@ -172,12 +172,14 @@ Now try moving the dodger past the left edge. No can do!
 We have not yet implemented moving the dodger to the right. Can you do it? With the code implemented
 from the code along, think about what needs to change to make a `moveDodgerRight()` function. We'll
 need another  `e.key` in the event listener, and instead of moving the dodger `${left - 1}px`, we'll
+
 be moving it `${left + 1}px` (or `${right - 1}px`, if you prefer). To prevent the dodger from escaping off
 the right-hand side, you can make sure that `dodger.style.right` is always greater than `0px`.
 
 ## Conclusion
 
 Events and event handling is vital to web programming with the addition of the language to browsers.
+
 JavaScript allows for dynamic page rendering, and user can interact with the contents of the page
 in real time. With knowledge of these basic techniques, you'll become comfortable working with more
 complex interactions like those in video games that you may have played or seen before!
