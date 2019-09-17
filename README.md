@@ -182,6 +182,9 @@ listener, and instead of moving the dodger `${left - 1}px`, we'll be moving it
 `${left + 1}px` (or `${right - 1}px`, if you prefer). To prevent the dodger from
 escaping off the right-hand side, you can make sure that `dodger.style.right` is
 always greater than `0px`.
+#### Hint:
+Use only one attribute ("left" or "right") throughout your application to manipulate dodger's position -- otherwise, your dodger will move only one direction.
+
 
 ## Conclusion
 
